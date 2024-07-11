@@ -1,0 +1,36 @@
+.logo {
+    width: 120px;
+    height: auto;
+}
+    
+.icons img {
+    width: 2rem;
+    height: auto;
+}
+        
+.icons {
+    display: flex;
+    gap: 13px;
+}
+
+.buttons { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    margin-top: 15rem;
+    gap: 2rem;            
+}
+                
+.buttons button {
+    font-size: 16px;
+    padding: 1rem 9rem;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+                
+.dark {
+    background-color: rgb(31,31,31);
+    color: white;
+}
